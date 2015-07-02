@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eNM-cQ-W20">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Contoller-->
+        <scene sceneID="Igl-y8-iJY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6EG-AW-pNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="2Ys-Tw-KF1" customClass="ViewContoller" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Dre-nr-E7I"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-124" y="309"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="l00-fR-IzW">
+            <objects>
+                <navigationController id="eNM-cQ-W20" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bfw-UU-XNr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2Ys-Tw-KF1" kind="relationship" relationship="rootViewController" id="Wzj-tm-kte"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAv-Ew-Ghc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-849" y="309"/>
+        </scene>
+    </scenes>
+</document>

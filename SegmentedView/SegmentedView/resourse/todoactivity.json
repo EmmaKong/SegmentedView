@@ -1,0 +1,28 @@
+[
+  {
+  "title": "英语六级考试",
+  "date": "06.21",
+  "address": "西十二",
+  "sponsor": "教务处",
+  "begintime":"14:00"
+  },
+  {
+  "title": "职业规划讲座",
+  "date": "06.21",
+  "address": "西十二",
+  "sponsor": "研究生院",
+  "begintime":"19:00"
+  },
+ {
+ "title": "看电影",
+ "date": "06.21",
+ "address": "光谷CGV",
+ "begintime":"16:00"
+ },
+ {
+ "title": "交报告",
+ "date": "06.21",
+ "address": "",
+ "begintime":"12:00"
+ }
+]
