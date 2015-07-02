@@ -37,9 +37,7 @@
     [self addChildViewController:_segmentView];
     [self.view addSubview:_segmentView.view];
     
-    
 }
-
 
 
 @end

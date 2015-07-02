@@ -7,6 +7,7 @@
 //
 
 #import "FavouritelistTableViewController.h"
+#import "ActivityDetailViewController.h"
 
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
@@ -117,7 +118,12 @@
 // 选中某个事项cell，进入 事项详情页面
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"嗯呢");
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    ActivityDetailViewController *activitydetail = [[ActivityDetailViewController alloc] init];
+    
+    activitydetail.activity = _activitiesArray[indexPath.row];
+    [self.navigationController pushViewController:activitydetail animated:YES];
 }
 
 

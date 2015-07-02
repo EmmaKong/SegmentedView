@@ -29,6 +29,25 @@
 		B5A3BDF11B453E040007E604 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDEF1B453E040007E604 /* Info.plist */; };
 		B5A3BDF21B453E040007E604 /* SegmentedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDF01B453E040007E604 /* SegmentedViewTests.m */; };
 		B5A3BDF41B456C3D0007E604 /* todolist.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDF31B456C3D0007E604 /* todolist.json */; };
+		B5A3BE1B1B457E6E0007E604 /* ActivityDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE011B457E6E0007E604 /* ActivityDetailCell.m */; };
+		B5A3BE1C1B457E6E0007E604 /* ActivityDetailEditVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE031B457E6E0007E604 /* ActivityDetailEditVIewController.m */; };
+		B5A3BE1D1B457E6E0007E604 /* ActivityDetailSection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE051B457E6E0007E604 /* ActivityDetailSection.m */; };
+		B5A3BE1E1B457E6E0007E604 /* ActivityDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE071B457E6E0007E604 /* ActivityDetailTableViewController.m */; };
+		B5A3BE1F1B457E6E0007E604 /* ActivityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE091B457E6E0007E604 /* ActivityDetailViewController.m */; };
+		B5A3BE201B457E6E0007E604 /* ActivityInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE0B1B457E6E0007E604 /* ActivityInfoCell.m */; };
+		B5A3BE211B457E6E0007E604 /* ActivityPeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE0E1B457E6E0007E604 /* ActivityPeerViewController.m */; };
+		B5A3BE221B457E6E0007E604 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE101B457E6E0007E604 /* Member.m */; };
+		B5A3BE231B457E6E0007E604 /* PeerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE121B457E6E0007E604 /* PeerCell.m */; };
+		B5A3BE241B457E6E0007E604 /* PeerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BE131B457E6E0007E604 /* PeerCell.xib */; };
+		B5A3BE251B457E6E0007E604 /* ActivityPeerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE151B457E6E0007E604 /* ActivityPeerCell.m */; };
+		B5A3BE261B457E6E0007E604 /* ActivityTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE171B457E6E0007E604 /* ActivityTimeCell.m */; };
+		B5A3BE271B457E6E0007E604 /* ActivityTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE191B457E6E0007E604 /* ActivityTimePickerView.m */; };
+		B5A3BE281B457E6E0007E604 /* ActivityTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BE1A1B457E6E0007E604 /* ActivityTimePickerView.xib */; };
+		B5A3BE2B1B457EDD0007E604 /* ToolMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE2A1B457EDD0007E604 /* ToolMethod.m */; };
+		B5A3BE2E1B457F570007E604 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE2D1B457F570007E604 /* MBProgressHUD.m */; };
+		B5A3BE311B4580110007E604 /* PullingRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BE301B4580110007E604 /* PullingRefreshTableView.m */; };
+		B5A3BE331B45811B0007E604 /* activitypeer.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BE321B45811B0007E604 /* activitypeer.json */; };
+		B5A3BE351B4581970007E604 /* touxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BE341B4581970007E604 /* touxiang.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +97,40 @@
 		B5A3BDEF1B453E040007E604 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5A3BDF01B453E040007E604 /* SegmentedViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewTests.m; sourceTree = "<group>"; };
 		B5A3BDF31B456C3D0007E604 /* todolist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = todolist.json; sourceTree = "<group>"; };
+		B5A3BE001B457E6E0007E604 /* ActivityDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailCell.h; sourceTree = "<group>"; };
+		B5A3BE011B457E6E0007E604 /* ActivityDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailCell.m; sourceTree = "<group>"; };
+		B5A3BE021B457E6E0007E604 /* ActivityDetailEditVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailEditVIewController.h; sourceTree = "<group>"; };
+		B5A3BE031B457E6E0007E604 /* ActivityDetailEditVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailEditVIewController.m; sourceTree = "<group>"; };
+		B5A3BE041B457E6E0007E604 /* ActivityDetailSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailSection.h; sourceTree = "<group>"; };
+		B5A3BE051B457E6E0007E604 /* ActivityDetailSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailSection.m; sourceTree = "<group>"; };
+		B5A3BE061B457E6E0007E604 /* ActivityDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailTableViewController.h; sourceTree = "<group>"; };
+		B5A3BE071B457E6E0007E604 /* ActivityDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailTableViewController.m; sourceTree = "<group>"; };
+		B5A3BE081B457E6E0007E604 /* ActivityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailViewController.h; sourceTree = "<group>"; };
+		B5A3BE091B457E6E0007E604 /* ActivityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailViewController.m; sourceTree = "<group>"; };
+		B5A3BE0A1B457E6E0007E604 /* ActivityInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInfoCell.h; sourceTree = "<group>"; };
+		B5A3BE0B1B457E6E0007E604 /* ActivityInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInfoCell.m; sourceTree = "<group>"; };
+		B5A3BE0D1B457E6E0007E604 /* ActivityPeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPeerViewController.h; sourceTree = "<group>"; };
+		B5A3BE0E1B457E6E0007E604 /* ActivityPeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPeerViewController.m; sourceTree = "<group>"; };
+		B5A3BE0F1B457E6E0007E604 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		B5A3BE101B457E6E0007E604 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		B5A3BE111B457E6E0007E604 /* PeerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerCell.h; sourceTree = "<group>"; };
+		B5A3BE121B457E6E0007E604 /* PeerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerCell.m; sourceTree = "<group>"; };
+		B5A3BE131B457E6E0007E604 /* PeerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeerCell.xib; sourceTree = "<group>"; };
+		B5A3BE141B457E6E0007E604 /* ActivityPeerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPeerCell.h; sourceTree = "<group>"; };
+		B5A3BE151B457E6E0007E604 /* ActivityPeerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPeerCell.m; sourceTree = "<group>"; };
+		B5A3BE161B457E6E0007E604 /* ActivityTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTimeCell.h; sourceTree = "<group>"; };
+		B5A3BE171B457E6E0007E604 /* ActivityTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTimeCell.m; sourceTree = "<group>"; };
+		B5A3BE181B457E6E0007E604 /* ActivityTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTimePickerView.h; sourceTree = "<group>"; };
+		B5A3BE191B457E6E0007E604 /* ActivityTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTimePickerView.m; sourceTree = "<group>"; };
+		B5A3BE1A1B457E6E0007E604 /* ActivityTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTimePickerView.xib; sourceTree = "<group>"; };
+		B5A3BE291B457EDD0007E604 /* ToolMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMethod.h; sourceTree = "<group>"; };
+		B5A3BE2A1B457EDD0007E604 /* ToolMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMethod.m; sourceTree = "<group>"; };
+		B5A3BE2C1B457F570007E604 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B5A3BE2D1B457F570007E604 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B5A3BE2F1B4580110007E604 /* PullingRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullingRefreshTableView.h; sourceTree = "<group>"; };
+		B5A3BE301B4580110007E604 /* PullingRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullingRefreshTableView.m; sourceTree = "<group>"; };
+		B5A3BE321B45811B0007E604 /* activitypeer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activitypeer.json; sourceTree = "<group>"; };
+		B5A3BE341B4581970007E604 /* touxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touxiang.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,20 +176,21 @@
 		B5A3BD9B1B452E0E0007E604 /* SegmentedView */ = {
 			isa = PBXGroup;
 			children = (
-				B5A3BDDB1B4532430007E604 /* tablecell */,
 				B5A3BDA01B452E0E0007E604 /* AppDelegate.h */,
 				B5A3BDA11B452E0E0007E604 /* AppDelegate.m */,
 				B5A3BDA31B452E0E0007E604 /* ViewController.h */,
 				B5A3BDA41B452E0E0007E604 /* ViewController.m */,
 				B5A3BDA61B452E0E0007E604 /* Main.storyboard */,
 				B5A3BDD71B4531280007E604 /* Additional */,
+				B5A3BDDB1B4532430007E604 /* tablecell */,
 				B5A3BDC71B4530480007E604 /* SegmentView */,
+				B5A3BDFF1B457E6E0007E604 /* ActivityDetail */,
 				B5A3BDD11B4530530007E604 /* ActivitySegmentViewController.h */,
 				B5A3BDD21B4530530007E604 /* ActivitySegmentViewController.m */,
-				B5A3BDD41B45305F0007E604 /* FavouritelistTableViewController.h */,
-				B5A3BDD51B45305F0007E604 /* FavouritelistTableViewController.m */,
 				B5A3BDCC1B4530480007E604 /* TodolistTableViewController.h */,
 				B5A3BDCD1B4530480007E604 /* TodolistTableViewController.m */,
+				B5A3BDD41B45305F0007E604 /* FavouritelistTableViewController.h */,
+				B5A3BDD51B45305F0007E604 /* FavouritelistTableViewController.m */,
 				B5A3BDA91B452E0E0007E604 /* Images.xcassets */,
 				B5A3BDAB1B452E0E0007E604 /* LaunchScreen.xib */,
 				B5A3BD9C1B452E0E0007E604 /* Supporting Files */,
@@ -175,6 +229,8 @@
 		B5A3BDC21B4530330007E604 /* resourse */ = {
 			isa = PBXGroup;
 			children = (
+				B5A3BE341B4581970007E604 /* touxiang.png */,
+				B5A3BE321B45811B0007E604 /* activitypeer.json */,
 				B5A3BDF31B456C3D0007E604 /* todolist.json */,
 				B5A3BDC31B4530330007E604 /* activities.json */,
 			);
@@ -195,6 +251,10 @@
 		B5A3BDD71B4531280007E604 /* Additional */ = {
 			isa = PBXGroup;
 			children = (
+				B5A3BE2F1B4580110007E604 /* PullingRefreshTableView.h */,
+				B5A3BE301B4580110007E604 /* PullingRefreshTableView.m */,
+				B5A3BE2C1B457F570007E604 /* MBProgressHUD.h */,
+				B5A3BE2D1B457F570007E604 /* MBProgressHUD.m */,
 				B5A3BDD81B4531280007E604 /* LeftSwipeDeleteTableView.h */,
 				B5A3BDD91B4531280007E604 /* LeftSwipeDeleteTableView.m */,
 			);
@@ -221,6 +281,49 @@
 				B5A3BDE91B4534760007E604 /* CoreGraphics.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		B5A3BDFF1B457E6E0007E604 /* ActivityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B5A3BE291B457EDD0007E604 /* ToolMethod.h */,
+				B5A3BE2A1B457EDD0007E604 /* ToolMethod.m */,
+				B5A3BE001B457E6E0007E604 /* ActivityDetailCell.h */,
+				B5A3BE011B457E6E0007E604 /* ActivityDetailCell.m */,
+				B5A3BE021B457E6E0007E604 /* ActivityDetailEditVIewController.h */,
+				B5A3BE031B457E6E0007E604 /* ActivityDetailEditVIewController.m */,
+				B5A3BE041B457E6E0007E604 /* ActivityDetailSection.h */,
+				B5A3BE051B457E6E0007E604 /* ActivityDetailSection.m */,
+				B5A3BE061B457E6E0007E604 /* ActivityDetailTableViewController.h */,
+				B5A3BE071B457E6E0007E604 /* ActivityDetailTableViewController.m */,
+				B5A3BE081B457E6E0007E604 /* ActivityDetailViewController.h */,
+				B5A3BE091B457E6E0007E604 /* ActivityDetailViewController.m */,
+				B5A3BE0A1B457E6E0007E604 /* ActivityInfoCell.h */,
+				B5A3BE0B1B457E6E0007E604 /* ActivityInfoCell.m */,
+				B5A3BE0C1B457E6E0007E604 /* ActivityPeer */,
+				B5A3BE141B457E6E0007E604 /* ActivityPeerCell.h */,
+				B5A3BE151B457E6E0007E604 /* ActivityPeerCell.m */,
+				B5A3BE161B457E6E0007E604 /* ActivityTimeCell.h */,
+				B5A3BE171B457E6E0007E604 /* ActivityTimeCell.m */,
+				B5A3BE181B457E6E0007E604 /* ActivityTimePickerView.h */,
+				B5A3BE191B457E6E0007E604 /* ActivityTimePickerView.m */,
+				B5A3BE1A1B457E6E0007E604 /* ActivityTimePickerView.xib */,
+			);
+			path = ActivityDetail;
+			sourceTree = "<group>";
+		};
+		B5A3BE0C1B457E6E0007E604 /* ActivityPeer */ = {
+			isa = PBXGroup;
+			children = (
+				B5A3BE0D1B457E6E0007E604 /* ActivityPeerViewController.h */,
+				B5A3BE0E1B457E6E0007E604 /* ActivityPeerViewController.m */,
+				B5A3BE0F1B457E6E0007E604 /* Member.h */,
+				B5A3BE101B457E6E0007E604 /* Member.m */,
+				B5A3BE111B457E6E0007E604 /* PeerCell.h */,
+				B5A3BE121B457E6E0007E604 /* PeerCell.m */,
+				B5A3BE131B457E6E0007E604 /* PeerCell.xib */,
+			);
+			path = ActivityPeer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A3BE281B457E6E0007E604 /* ActivityTimePickerView.xib in Resources */,
+				B5A3BE241B457E6E0007E604 /* PeerCell.xib in Resources */,
 				B5A3BDC51B4530330007E604 /* activities.json in Resources */,
 				B5A3BDA81B452E0E0007E604 /* Main.storyboard in Resources */,
+				B5A3BE351B4581970007E604 /* touxiang.png in Resources */,
 				B5A3BDAD1B452E0E0007E604 /* LaunchScreen.xib in Resources */,
 				B5A3BDE31B4532430007E604 /* ActivityCell.xib in Resources */,
+				B5A3BE331B45811B0007E604 /* activitypeer.json in Resources */,
 				B5A3BDAA1B452E0E0007E604 /* Images.xcassets in Resources */,
 				B5A3BDF41B456C3D0007E604 /* todolist.json in Resources */,
 			);
@@ -328,16 +435,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A3BDA51B452E0E0007E604 /* ViewController.m in Sources */,
+				B5A3BE261B457E6E0007E604 /* ActivityTimeCell.m in Sources */,
 				B5A3BDDA1B4531280007E604 /* LeftSwipeDeleteTableView.m in Sources */,
 				B5A3BDD61B45305F0007E604 /* FavouritelistTableViewController.m in Sources */,
 				B5A3BDD01B4530480007E604 /* TodolistTableViewController.m in Sources */,
 				B5A3BDE11B4532430007E604 /* Activity.m in Sources */,
+				B5A3BE2B1B457EDD0007E604 /* ToolMethod.m in Sources */,
+				B5A3BE1C1B457E6E0007E604 /* ActivityDetailEditVIewController.m in Sources */,
 				B5A3BDD31B4530530007E604 /* ActivitySegmentViewController.m in Sources */,
 				B5A3BDE21B4532430007E604 /* ActivityCell.m in Sources */,
+				B5A3BE1F1B457E6E0007E604 /* ActivityDetailViewController.m in Sources */,
+				B5A3BE231B457E6E0007E604 /* PeerCell.m in Sources */,
+				B5A3BE221B457E6E0007E604 /* Member.m in Sources */,
 				B5A3BDA21B452E0E0007E604 /* AppDelegate.m in Sources */,
+				B5A3BE251B457E6E0007E604 /* ActivityPeerCell.m in Sources */,
+				B5A3BE201B457E6E0007E604 /* ActivityInfoCell.m in Sources */,
+				B5A3BE1D1B457E6E0007E604 /* ActivityDetailSection.m in Sources */,
+				B5A3BE311B4580110007E604 /* PullingRefreshTableView.m in Sources */,
+				B5A3BE2E1B457F570007E604 /* MBProgressHUD.m in Sources */,
 				B5A3BDCE1B4530480007E604 /* AVSegmentController.m in Sources */,
+				B5A3BE211B457E6E0007E604 /* ActivityPeerViewController.m in Sources */,
 				B5A3BD9F1B452E0E0007E604 /* main.m in Sources */,
+				B5A3BE1E1B457E6E0007E604 /* ActivityDetailTableViewController.m in Sources */,
 				B5A3BDCF1B4530480007E604 /* AVSegmentView.m in Sources */,
+				B5A3BE271B457E6E0007E604 /* ActivityTimePickerView.m in Sources */,
+				B5A3BE1B1B457E6E0007E604 /* ActivityDetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

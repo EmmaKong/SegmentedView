@@ -24,7 +24,6 @@
     TodolistTableViewController *todotable = [[TodolistTableViewController alloc]  init];
     FavouritelistTableViewController *favouritetable = [[FavouritelistTableViewController alloc] init];
     
-    
     self = [super initWithControllers:todotable,favouritetable, nil];
     if (self) {
         // your code
@@ -42,21 +41,6 @@
 
 
 }
-
-//-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
-//{
-//    [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
-//    if (context == CusomHeaderInsetObserver) {
-//        CGFloat inset = [change[NSKeyValueChangeNewKey] floatValue];
-//        NSLog(@"inset is %f",inset);
-//        
-//    }
-//}
-
-//-(void)dealloc
-//{
-//    [self removeObserver:self forKeyPath:@"segmentToInset"];
-//}
 
 
 - (void)didReceiveMemoryWarning {

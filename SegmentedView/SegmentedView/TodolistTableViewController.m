@@ -7,6 +7,8 @@
 //
 
 #import "TodolistTableViewController.h"
+#import "ActivityDetailViewController.h"
+
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
 
@@ -25,6 +27,16 @@
     }
     return self;
 }
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -120,8 +132,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    NSLog(@"haha");
-}
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    ActivityDetailViewController *activitydetail = [[ActivityDetailViewController alloc]init];
+    
+    activitydetail.activity = _activitiesArray[indexPath.row];
+    
+    [self.navigationController pushViewController:activitydetail animated:YES];}
 
 
 - (void)didReceiveMemoryWarning {
