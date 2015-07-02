@@ -14,7 +14,6 @@
 @interface ActivityDetailViewController : ActivityDetailTableViewController< UIActionSheetDelegate>
 
 
-
 @property (nonatomic,retain) Activity *activity;
 
 @property (nonatomic,retain) UILabel *timeLabel;

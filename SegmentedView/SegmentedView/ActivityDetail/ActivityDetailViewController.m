@@ -34,6 +34,16 @@
 {
     [super viewDidLoad];
     self.title = @"事项详情";
+    
+    [[NSNotificationCenter defaultCenter]  addObserver:self selector:@selector(modifyactivitySchedule:) name:@"modifyactivitySchedule" object:nil];
+
+}
+
+- (void) modifyactivitySchedule:(NSNotification*) notification
+{
+    Activity *obj = [notification object];//获取到传递的对象
+    self.activity=obj;
+    [self.tableView reloadData];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

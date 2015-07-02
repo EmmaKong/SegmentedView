@@ -22,8 +22,6 @@
 
 @property (nonatomic, retain) LeftSwipeDeleteTableView *tableView;
 
-
-
 @property (nonatomic, retain) NSArray   *titles;
 @property (nonatomic, retain) NSArray   *dates;
 @property (nonatomic, retain) NSArray   *addresss;

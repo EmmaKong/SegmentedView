@@ -120,10 +120,16 @@ CGFloat moveup;
 }
 
 -(void)saveActivity{
-
     
+    self.activity.title = titlefield.text;
+    self.activity.address = addressfield.text;
+    self.activity.date = datefield.text;
+    self.activity.sponsor = sponsorfield.text;
+    self.activity.detail = detailfield.text;
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"modifyactivitySchedule" object:self.activity];
     
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    //[self.navigationController popToRootViewControllerAnimated:YES];
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];
 }
 
 
