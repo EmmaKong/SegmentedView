@@ -29,7 +29,7 @@
     // Do any additional setup after loading the view.
     self.title = @"SegmentedViewController";
     
-    self.view.backgroundColor = [UIColor clearColor];
+    //self.view.backgroundColor = [UIColor clearColor];
     
     _segmentView = [[ActivitySegmentViewController alloc] init];
     
@@ -38,23 +38,8 @@
     [self.view addSubview:_segmentView.view];
     
     
-    //左侧 添加事项按钮
-    UIButton *addactivityButton = [UIButton  buttonWithType:UIButtonTypeContactAdd];
-    addactivityButton.frame = CGRectMake(0, 0, 30, 30);
-    [addactivityButton addTarget:self action:@selector(addActivityAction:) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *addactivityItem = [[UIBarButtonItem alloc] initWithCustomView:addactivityButton];
-    self.navigationItem.leftBarButtonItem = addactivityItem;
-    
-    
 }
 
 
-//// 添加事项 action
-//- (void)addActivityAction:(id)sender{
-//    
-//    AddActivityViewController *addViewController = [[AddActivityViewController alloc] init];
-//    [self.navigationController pushViewController:addViewController animated:YES];
-//    
-//}
 
 @end

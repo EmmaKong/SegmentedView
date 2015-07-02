@@ -1,0 +1,32 @@
+[
+ {
+  "title": "英语六级考试",
+  "date": "06.21",
+  "address": "西十二",
+  "sponsor": "教务处"
+ },
+ {
+  "title": "招聘会",
+  "date": "05.23",
+  "address": "大活",
+  "sponsor": "就业中心"
+ },
+ {
+  "title": "数据结构",
+  "date": "06.02",
+  "address": "东九",
+  "sponsor": "教务处"
+ },
+ {
+  "title": "篮球赛",
+  "date": "06.03",
+  "address": "西操",
+  "sponsor": "校学生会"
+ },
+ {
+  "title": "多校联谊",
+  "date": "06.20",
+  "address": "光谷体育馆",
+  "sponsor": "研究生院"
+ }
+]

@@ -13,9 +13,7 @@
 		B5A3BDA81B452E0E0007E604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDA61B452E0E0007E604 /* Main.storyboard */; };
 		B5A3BDAA1B452E0E0007E604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDA91B452E0E0007E604 /* Images.xcassets */; };
 		B5A3BDAD1B452E0E0007E604 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDAB1B452E0E0007E604 /* LaunchScreen.xib */; };
-		B5A3BDB91B452E0E0007E604 /* SegmentedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDB81B452E0E0007E604 /* SegmentedViewTests.m */; };
 		B5A3BDC51B4530330007E604 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDC31B4530330007E604 /* activities.json */; };
-		B5A3BDC61B4530330007E604 /* todoactivity.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDC41B4530330007E604 /* todoactivity.json */; };
 		B5A3BDCE1B4530480007E604 /* AVSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDC91B4530480007E604 /* AVSegmentController.m */; };
 		B5A3BDCF1B4530480007E604 /* AVSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDCB1B4530480007E604 /* AVSegmentView.m */; };
 		B5A3BDD01B4530480007E604 /* TodolistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDCD1B4530480007E604 /* TodolistTableViewController.m */; };
@@ -28,6 +26,9 @@
 		B5A3BDEB1B4534910007E604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3BDE51B45345C0007E604 /* Foundation.framework */; };
 		B5A3BDEC1B4534930007E604 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3BDE71B4534670007E604 /* UIKit.framework */; };
 		B5A3BDED1B4534950007E604 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A3BDE91B4534760007E604 /* CoreGraphics.framework */; };
+		B5A3BDF11B453E040007E604 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDEF1B453E040007E604 /* Info.plist */; };
+		B5A3BDF21B453E040007E604 /* SegmentedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A3BDF01B453E040007E604 /* SegmentedViewTests.m */; };
+		B5A3BDF41B456C3D0007E604 /* todolist.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A3BDF31B456C3D0007E604 /* todolist.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +53,7 @@
 		B5A3BDA91B452E0E0007E604 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5A3BDAC1B452E0E0007E604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5A3BDB21B452E0E0007E604 /* SegmentedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A3BDB71B452E0E0007E604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A3BDB81B452E0E0007E604 /* SegmentedViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewTests.m; sourceTree = "<group>"; };
 		B5A3BDC31B4530330007E604 /* activities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
-		B5A3BDC41B4530330007E604 /* todoactivity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = todoactivity.json; sourceTree = "<group>"; };
 		B5A3BDC81B4530480007E604 /* AVSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSegmentController.h; sourceTree = "<group>"; };
 		B5A3BDC91B4530480007E604 /* AVSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSegmentController.m; sourceTree = "<group>"; };
 		B5A3BDCA1B4530480007E604 /* AVSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSegmentView.h; sourceTree = "<group>"; };
@@ -77,6 +75,9 @@
 		B5A3BDE71B4534670007E604 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5A3BDE91B4534760007E604 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B5A3BDEE1B4534E50007E604 /* SegmentedViewPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewPrefixHeader.pch; sourceTree = "<group>"; };
+		B5A3BDEF1B453E040007E604 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A3BDF01B453E040007E604 /* SegmentedViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewTests.m; sourceTree = "<group>"; };
+		B5A3BDF31B456C3D0007E604 /* todolist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = todolist.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +133,8 @@
 				B5A3BDC71B4530480007E604 /* SegmentView */,
 				B5A3BDD11B4530530007E604 /* ActivitySegmentViewController.h */,
 				B5A3BDD21B4530530007E604 /* ActivitySegmentViewController.m */,
-				B5A3BDD51B45305F0007E604 /* FavouritelistTableViewController.m */,
 				B5A3BDD41B45305F0007E604 /* FavouritelistTableViewController.h */,
+				B5A3BDD51B45305F0007E604 /* FavouritelistTableViewController.m */,
 				B5A3BDCC1B4530480007E604 /* TodolistTableViewController.h */,
 				B5A3BDCD1B4530480007E604 /* TodolistTableViewController.m */,
 				B5A3BDA91B452E0E0007E604 /* Images.xcassets */,
@@ -157,7 +158,8 @@
 		B5A3BDB51B452E0E0007E604 /* SegmentedViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5A3BDB81B452E0E0007E604 /* SegmentedViewTests.m */,
+				B5A3BDEF1B453E040007E604 /* Info.plist */,
+				B5A3BDF01B453E040007E604 /* SegmentedViewTests.m */,
 				B5A3BDB61B452E0E0007E604 /* Supporting Files */,
 			);
 			path = SegmentedViewTests;
@@ -166,7 +168,6 @@
 		B5A3BDB61B452E0E0007E604 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5A3BDB71B452E0E0007E604 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,8 +175,8 @@
 		B5A3BDC21B4530330007E604 /* resourse */ = {
 			isa = PBXGroup;
 			children = (
+				B5A3BDF31B456C3D0007E604 /* todolist.json */,
 				B5A3BDC31B4530330007E604 /* activities.json */,
-				B5A3BDC41B4530330007E604 /* todoactivity.json */,
 			);
 			path = resourse;
 			sourceTree = "<group>";
@@ -304,10 +305,10 @@
 			files = (
 				B5A3BDC51B4530330007E604 /* activities.json in Resources */,
 				B5A3BDA81B452E0E0007E604 /* Main.storyboard in Resources */,
-				B5A3BDC61B4530330007E604 /* todoactivity.json in Resources */,
 				B5A3BDAD1B452E0E0007E604 /* LaunchScreen.xib in Resources */,
 				B5A3BDE31B4532430007E604 /* ActivityCell.xib in Resources */,
 				B5A3BDAA1B452E0E0007E604 /* Images.xcassets in Resources */,
+				B5A3BDF41B456C3D0007E604 /* todolist.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A3BDF11B453E040007E604 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A3BDB91B452E0E0007E604 /* SegmentedViewTests.m in Sources */,
+				B5A3BDF21B453E040007E604 /* SegmentedViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +532,7 @@
 				B5A3BDBE1B452E0E0007E604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A3BDBF1B452E0E0007E604 /* Build configuration list for PBXNativeTarget "SegmentedViewTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +541,7 @@
 				B5A3BDC11B452E0E0007E604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
